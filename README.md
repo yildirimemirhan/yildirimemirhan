@@ -18,7 +18,6 @@ I specialize in bridging the gap between AI prototypes and production. Whether i
 - **Computer Vision & NLP:** `OpenCV` `Image Processing` `RAG` `ChromaDB` `Spotify Annoy`
 - **Data & Backend:** `Python` `FastAPI` `Flask` `PostgreSQL` `Dask (ETL)` `Pandas` `SQL`
 - **DevOps & Infrastructure:** `Docker` `GitHub Actions (CI/CD)` `Git` `Linux`
-- **Systems & Automation:** `Multithreading` `Appium` `Selenium` `UiAutomator2`
 
 ---
 
@@ -30,5 +29,3 @@ I specialize in bridging the gap between AI prototypes and production. Whether i
 | [**rag-project-assistant**](https://github.com/frissonitte/rag-project-assistant) | Hybrid-source RAG system answering questions about my portfolio projects. Combines AST-extracted code structure with curated documentation, using similarity-threshold gating (ChromaDB, L2 < 1.40) to prevent hallucination on out-of-scope queries. Deployed on Hugging Face Spaces (Docker, FastAPI, Groq Llama 3.3 70B) with rate-limited public API and a live chat widget. |
 | [**kinematic-action-recognition**](https://github.com/frissonitte/kinematic-action-recognition) | Full end-to-end ML pipeline on 10 GB motion-capture sensor data. Features out-of-core ingestion with **Dask**, real-time streaming with drift detection (81 windows/sec), and a LightGBM/RandomForest ensemble achieving 0.94169 accuracy on Kaggle. |
 | [**popcorn-wagon**](https://github.com/frissonitte/popcorn-wagon) | Hybrid movie recommender engine built with **Dask/Pandas** for scalable ETL and Spotify Annoy for sub-millisecond similarity search. Integrates collaborative filtering (SVD) and content-based filtering. |
-| [**listing-pilot**](https://github.com/frissonitte/listing-pilot) | Config-driven mobile automation suite managing ~1,000 active listings across C2C marketplaces. Built with Appium and Python, featuring overlap detection, multi-ID fallbacks, and real-time Telegram alerting. Reduced daily manual workload by over 90%. |
-| [**portal-cleaner-ultimate**](https://github.com/frissonitte/portal-cleaner-ultimate) | Modular backend automation suite featuring a custom local test harness for offline ERP simulation. Engineered with fault-tolerant retry logic, slashing manual operational workloads by over 90% (saving 4-6 hours daily). |
