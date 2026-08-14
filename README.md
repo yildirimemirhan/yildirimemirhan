@@ -50,13 +50,6 @@ I specialize in bridging the gap between AI research prototypes and production-g
 
 <div align="center">
 
-### 📊 GitHub Activity & Stats
-
-![Emirhan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=frissonitte&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=frissonitte&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-**📫 Let's Connect:** [emirhan0yildirim@gmail.com](mailto:emirhan0yildirim@gmail.com) • [emirhanyildirim.me](https://www.emirhanyildirim.me/)
+**📫 Let's Connect:** [emirhan0yildirim@gmail.com](mailto:emirhan0yildirim@gmail.com) • [emirhanyildirim.me](https://www.emirhanyildirim.me/) • [LinkedIn](https://linkedin.com/in/yildirimemirhan)
 
 </div>
