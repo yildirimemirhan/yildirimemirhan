@@ -1,31 +1,36 @@
 ### Hi, I'm Emirhan 👋
 
-**Applied ML Engineer | Computer Vision · LLM Systems · Production ML**
+**Applied ML Engineer | Computer Vision · LLM & RAG Systems · MLOps**
 
-I specialize in bridging the gap between AI prototypes and production. Whether it's training robust Computer Vision models, designing Retrieval-Augmented Generation (RAG) pipelines, or building high-throughput streaming architectures, my focus is on engineering scalable, real-world ML systems.
+I specialize in bridging the gap between AI prototypes and production-grade software. Whether it's training robust Computer Vision models that generalize across unseen hardware, designing Retrieval-Augmented Generation (RAG) microservices, or engineering sub-50ms low-level C++/GLSL streaming pipelines, my focus is on building resilient, high-performance ML systems.
 
 ---
 
 #### 🚀 What I Do
 
-- **Applied AI & ML:** Training deep learning (CV) and generative AI (LLM/RAG) models, deploying them as production-ready microservices with a focus on out-of-distribution (OOD) generalization and explainability.
-- **MLOps & Data Pipelines:** Building automated training pipelines, CI/CD for model deployment (GitHub Actions, Docker), and out-of-core streaming architectures (Dask, drift detection).
-- **Backend & Systems Engineering:** Architecting fault-tolerant backend workflows, high-concurrency data ingestion pipelines, and resilient multi-threaded systems.
-
-#### 🛠 Core Stack
-
-- **ML & Deep Learning:** `PyTorch` `TensorFlow` `Scikit-Learn` `Transformers` `Sentence Transformers`
-- **Computer Vision & NLP:** `OpenCV` `Image Processing` `RAG` `ChromaDB` `Spotify Annoy`
-- **Data & Backend:** `Python` `FastAPI` `Flask` `PostgreSQL` `Dask (ETL)` `Pandas` `SQL`
-- **DevOps & Infrastructure:** `Docker` `GitHub Actions (CI/CD)` `Git` `Linux`
+- **Applied AI & Computer Vision:** Training deep learning architectures (DenseNet121, custom attention blocks) and deploying inference-time domain adaptation to eliminate out-of-distribution (OOD) accuracy drops in medical vision.
+- **AI Engineering & RAG:** Building production RAG microservices with ChromaDB similarity threshold gating (L2 < 1.40), sentence-transformers, and LLM agent explainability layers (GPT-4o & Groq Llama 3.3 70B).
+- **MLOps & Streaming Pipelines:** Architecting out-of-core data ingestion pipelines (Dask), real-time concept drift detection (ADWIN), containerized deployment (Docker, FastAPI, Hugging Face Spaces), and automated CI/CD workflows (GitHub Actions).
+- **Low-Level Systems & Software Engineering:** Developing real-time C++/GLSL wearable video processing engines (OpenDalton) and multi-threaded desktop portal tools.
 
 ---
 
-#### 🔬 Featured Projects
+#### 🛠 Core Technical Stack
 
-| Project | Description |
-| :--- | :--- |
-| [**wbc-analyzer**](https://github.com/frissonitte/wbc-analyzer) | End-to-end WBC classification system deployed as a Flask REST API. Features a custom architecture (DenseNet121 + WBCAttention + MedSwish). Incorporates inference-time domain adaptation achieving an 89.05% out-of-distribution (OOD) accuracy (+32.09 pp boost). Includes a multi-modal LLM agent (GPT-4o & Gemini) for clinical XAI insights. Preprint published on ResearchGate. |
-| [**rag-project-assistant**](https://github.com/frissonitte/rag-project-assistant) | Hybrid-source RAG system answering questions about my portfolio projects. Combines AST-extracted code structure with curated documentation, using similarity-threshold gating (ChromaDB, L2 < 1.40) to prevent hallucination on out-of-scope queries. Deployed on Hugging Face Spaces (Docker, FastAPI, Groq Llama 3.3 70B) with rate-limited public API and a live chat widget. |
-| [**kinematic-action-recognition**](https://github.com/frissonitte/kinematic-action-recognition) | Full end-to-end ML pipeline on 10 GB motion-capture sensor data. Features out-of-core ingestion with **Dask**, real-time streaming with drift detection (81 windows/sec), and a LightGBM/RandomForest ensemble achieving 0.94169 accuracy on Kaggle. |
-| [**popcorn-wagon**](https://github.com/frissonitte/popcorn-wagon) | Hybrid movie recommender engine built with **Dask/Pandas** for scalable ETL and Spotify Annoy for sub-millisecond similarity search. Integrates collaborative filtering (SVD) and content-based filtering. |
+- **ML & Deep Learning:** `PyTorch` `TensorFlow` `Scikit-Learn` `LightGBM` `XGBoost` `Neural Networks`
+- **AI Engineering & LLMs:** `RAG` `ChromaDB` `Sentence Transformers` `AI Agents` `Prompt Engineering` `Spotify Annoy`
+- **Computer Vision & Signal AI:** `OpenCV` `Digital Image Processing` `GLSL Shaders` `Edge Computing` `Medical Image Analysis`
+- **Languages & Frameworks:** `Python` `C++` `C#` `ASP.NET Core MVC` `Entity Framework Core` `FastAPI` `Flask` `SQL`
+- **Infrastructure & MLOps:** `Docker` `GitHub Actions (CI/CD)` `Dask` `Pandas` `NumPy` `Linux` `Git` `Multi-threading`
+
+---
+
+#### 🔬 Featured Portfolio Projects
+
+| Project                                                                                         | Description                                                                                                                                                                                                                                                                                                                              | Tech Stack                                              |
+| :---------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------ |
+| [**wbc-analyzer**](https://github.com/frissonitte/wbc-analyzer)                                 | End-to-end WBC pathology classification system. Features a custom architecture (DenseNet121 + WBCAttentionBlock + MedSwish). Inference-time domain adaptation boosted OOD accuracy from 56.96% to 89.05% (+32.09 pp) without model retraining. Includes GPT-4o & Gemini Grad-CAM clinical XAI agent. Preprint published on ResearchGate. | `PyTorch` `OpenCV` `Flask` `Docker` `Domain Adaptation` |
+| [**OpenDalton**](https://github.com/frissonitte/OpenDalton)                                     | Real-time wearable assistive vision technology targeting sub-50ms latency for color vision deficiency (CVD) correction. Developed custom GLSL fragment shaders and C++ video stream pipelines (Currently under M.Sc. research, private repository).| `C++` `GLSL` `OpenCV` `Edge Computing` `Embedded ML`    |
+| [**rag-project-assistant**](https://github.com/frissonitte/rag-project-assistant)               | Production RAG service providing structured QA over portfolio codebases and docs. Uses similarity-threshold gating (ChromaDB, L2 < 1.40) to prevent hallucination on out-of-scope queries. Live on HF Spaces as a FastAPI service with Docker containerization and IP rate limiting (~100 organic users).                                | `FastAPI` `ChromaDB` `Llama 3.3 70B` `Docker` `RAG`     |
+| [**kinematic-action-recognition**](https://github.com/frissonitte/kinematic-action-recognition) | Full end-to-end streaming ML pipeline on 10 GB motion-capture sensor data. Features Dask out-of-core ingestion, real-time ADWIN drift detection (81 windows/sec, 59 MB peak RAM), and an ensemble achieving 0.9995 Macro F1 score.                                                                                                       | `Python` `Dask` `Scikit-Learn` `LightGBM` `MLOps`       |
+| [**popcorn-wagon**](https://github.com/frissonitte/popcorn-wagon)                               | Scalable hybrid movie recommendation engine combining content-based filtering (TMDB API) and collaborative filtering (MovieLens + SVD) with Spotify Annoy sub-millisecond similarity search.                                                                                                                                             | `Python` `Pandas` `Spotify Annoy` `SQLAlchemy` `Flask`  |
