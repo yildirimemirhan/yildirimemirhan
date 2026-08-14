@@ -1,36 +1,62 @@
-### Hi, I'm Emirhan 👋
+<div align="center">
 
-**Applied ML Engineer | Computer Vision · LLM & RAG Systems · MLOps**
+# Hi, I'm Emirhan Yıldırım 👋
 
-I specialize in bridging the gap between AI prototypes and production-grade software. Whether it's training robust Computer Vision models that generalize across unseen hardware, designing Retrieval-Augmented Generation (RAG) microservices, or engineering sub-50ms low-level C++/GLSL streaming pipelines, my focus is on building resilient, high-performance ML systems.
+### **Applied Machine Learning Engineer**
+**Computer Vision · LLM & RAG Systems · MLOps**
 
----
+[![Website](https://img.shields.io/badge/Website-emirhanyildirim.me-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.emirhanyildirim.me/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-YildirimEmirhan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yildirimemirhan)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-frissonitte-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/frissonitte)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Publication-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Emirhan-Yildirim-4)
+[![Kaggle](https://img.shields.io/badge/Kaggle-frissonitte-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/frissonitte)
 
-#### 🚀 What I Do
-
-- **Applied AI & Computer Vision:** Training deep learning architectures (DenseNet121, custom attention blocks) and deploying inference-time domain adaptation to eliminate out-of-distribution (OOD) accuracy drops in medical vision.
-- **AI Engineering & RAG:** Building production RAG microservices with ChromaDB similarity threshold gating (L2 < 1.40), sentence-transformers, and LLM agent explainability layers (GPT-4o & Groq Llama 3.3 70B).
-- **MLOps & Streaming Pipelines:** Architecting out-of-core data ingestion pipelines (Dask), real-time concept drift detection (ADWIN), containerized deployment (Docker, FastAPI, Hugging Face Spaces), and automated CI/CD workflows (GitHub Actions).
-- **Low-Level Systems & Software Engineering:** Developing real-time C++/GLSL wearable video processing engines (OpenDalton) and multi-threaded desktop portal tools.
-
----
-
-#### 🛠 Core Technical Stack
-
-- **ML & Deep Learning:** `PyTorch` `TensorFlow` `Scikit-Learn` `LightGBM` `XGBoost` `Neural Networks`
-- **AI Engineering & LLMs:** `RAG` `ChromaDB` `Sentence Transformers` `AI Agents` `Prompt Engineering` `Spotify Annoy`
-- **Computer Vision & Signal AI:** `OpenCV` `Digital Image Processing` `GLSL Shaders` `Edge Computing` `Medical Image Analysis`
-- **Languages & Frameworks:** `Python` `C++` `C#` `ASP.NET Core MVC` `Entity Framework Core` `FastAPI` `Flask` `SQL`
-- **Infrastructure & MLOps:** `Docker` `GitHub Actions (CI/CD)` `Dask` `Pandas` `NumPy` `Linux` `Git` `Multi-threading`
+</div>
 
 ---
 
-#### 🔬 Featured Portfolio Projects
+### 👨‍💻 About Me
 
-| Project                                                                                         | Description                                                                                                                                                                                                                                                                                                                              | Tech Stack                                              |
-| :---------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------ |
-| [**wbc-analyzer**](https://github.com/frissonitte/wbc-analyzer)                                 | End-to-end WBC pathology classification system. Features a custom architecture (DenseNet121 + WBCAttentionBlock + MedSwish). Inference-time domain adaptation boosted OOD accuracy from 56.96% to 89.05% (+32.09 pp) without model retraining. Includes GPT-4o & Gemini Grad-CAM clinical XAI agent. Preprint published on ResearchGate. | `PyTorch` `OpenCV` `Flask` `Docker` `Domain Adaptation` |
-| [**OpenDalton**](https://github.com/frissonitte/OpenDalton)                                     | Real-time wearable assistive vision technology targeting sub-50ms latency for color vision deficiency (CVD) correction. Developed custom GLSL fragment shaders and C++ video stream pipelines (Currently under M.Sc. research, private repository).| `C++` `GLSL` `OpenCV` `Edge Computing` `Embedded ML`    |
-| [**rag-project-assistant**](https://github.com/frissonitte/rag-project-assistant)               | Production RAG service providing structured QA over portfolio codebases and docs. Uses similarity-threshold gating (ChromaDB, L2 < 1.40) to prevent hallucination on out-of-scope queries. Live on HF Spaces as a FastAPI service with Docker containerization and IP rate limiting (~100 organic users).                                | `FastAPI` `ChromaDB` `Llama 3.3 70B` `Docker` `RAG`     |
-| [**kinematic-action-recognition**](https://github.com/frissonitte/kinematic-action-recognition) | Full end-to-end streaming ML pipeline on 10 GB motion-capture sensor data. Features Dask out-of-core ingestion, real-time ADWIN drift detection (81 windows/sec, 59 MB peak RAM), and an ensemble achieving 0.9995 Macro F1 score.                                                                                                       | `Python` `Dask` `Scikit-Learn` `LightGBM` `MLOps`       |
-| [**popcorn-wagon**](https://github.com/frissonitte/popcorn-wagon)                               | Scalable hybrid movie recommendation engine combining content-based filtering (TMDB API) and collaborative filtering (MovieLens + SVD) with Spotify Annoy sub-millisecond similarity search.                                                                                                                                             | `Python` `Pandas` `Spotify Annoy` `SQLAlchemy` `Flask`  |
+I specialize in bridging the gap between AI research prototypes and production-grade software. Whether it's training robust Computer Vision models that generalize across unseen hardware, designing Retrieval-Augmented Generation (RAG) microservices, or engineering low-level streaming pipelines, my focus is on building resilient, high-performance ML systems.
+
+* 📍 **Location:** Istanbul / Sakarya, Türkiye
+* 🎓 **M.Sc. Student:** Information Systems Engineering at Sakarya University
+* 🔬 **Core Focus:** Out-of-Distribution Medical AI, Production LLM Agents, Real-Time Video Processing & Streaming MLOps
+
+---
+
+### 🛠 Tech Stack & Ecosystem
+
+```text
+  Languages   :: Python, C++, C#, SQL, GLSL Shaders
+  Frameworks  :: PyTorch, TensorFlow, ASP.NET Core MVC, Entity Framework Core, FastAPI, Flask, Scikit-Learn
+  AI & Vision :: OpenCV, RAG, ChromaDB, Sentence Transformers, Multi-Modal Agents, Edge Computing
+  MLOps & Ops :: Docker, GitHub Actions (CI/CD), Dask, Pandas, NumPy, Linux, Git, Multi-threading
+```
+
+---
+
+### 🔬 Featured Portfolio Projects
+
+| Project & Status | Highlights & Performance Metrics | Core Tech |
+| :--- | :--- | :--- |
+| [**wbc-analyzer**](https://github.com/frissonitte/wbc-analyzer)<br>`🚀 Production Live` `📄 Preprint` | **Out-of-Distribution Medical Pathology AI.** Custom DenseNet121 + WBCAttentionBlock + MedSwish achieving 98.53% in-distribution accuracy. Inference-time domain adaptation boosted OOD accuracy from 56.96% to 89.05% (+32.09 pp) without retraining. Includes GPT-4o & Gemini Grad-CAM clinical agent. | `PyTorch` `OpenCV` `Flask` `Docker` |
+| **OpenDalton**<br>`🔒 Private Repo (M.Sc. Research)` `⚡ Sub-50ms` | **Wearable Assistive Vision Engine.** Real-time video processing pipeline for Color Vision Deficiency (CVD) correction. Custom GLSL fragment shaders and C++ stream processing for ongoing M.Sc. thesis research. | `C++` `GLSL` `OpenCV` `Edge ML` |
+| [**rag-project-assistant**](https://github.com/frissonitte/rag-project-assistant)<br>`⚡ Live Microservice` | **Portfolio RAG Microservice.** Sentence-transformers + ChromaDB (L2 < 1.40 threshold gate) + Groq Llama 3.3 70B. Deployed on HF Spaces via Docker & FastAPI with IP rate-limiting (~100 organic users). | `FastAPI` `ChromaDB` `Llama 3.3 70B` |
+| [**kinematic-action-recognition**](https://github.com/frissonitte/kinematic-action-recognition)<br>`📈 0.9995 Macro F1` | **10 GB Streaming ML Pipeline.** Out-of-core Dask ingestion, real-time ADWIN drift detection (81 windows/sec, 59 MB peak RAM), and LightGBM ensemble on motion-capture sensor data. | `Python` `Dask` `LightGBM` `ADWIN` |
+| [**popcorn-wagon**](https://github.com/frissonitte/popcorn-wagon)<br>`🎬 Hybrid Engine` | **Movie Recommender System.** Combines content-based filtering (TMDB API) and collaborative filtering (MovieLens SVD) with Spotify Annoy sub-millisecond similarity search. | `Python` `Spotify Annoy` `SQLAlchemy` |
+
+---
+
+<div align="center">
+
+### 📊 GitHub Activity & Stats
+
+![Emirhan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=frissonitte&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=frissonitte&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
+**📫 Let's Connect:** [emirhan0yildirim@gmail.com](mailto:emirhan0yildirim@gmail.com) • [emirhanyildirim.me](https://www.emirhanyildirim.me/)
+
+</div>
