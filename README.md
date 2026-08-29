@@ -19,7 +19,7 @@
 
 I specialize in bridging the gap between AI research prototypes and production-grade software. Whether it's training robust Computer Vision models that generalize across unseen hardware, designing Retrieval-Augmented Generation (RAG) microservices, or engineering low-level streaming pipelines, my focus is on building resilient, high-performance ML systems.
 
-* 📍 **Location:** Istanbul / Sakarya, Türkiye
+* 📍 **Location:** Sakarya , Türkiye
 * 🎓 **M.Sc. Student:** Information Systems Engineering at Sakarya University
 * 🔬 **Core Focus:** Out-of-Distribution Medical AI, Production LLM Agents, Real-Time Video Processing & Streaming MLOps
 
@@ -28,7 +28,7 @@ I specialize in bridging the gap between AI research prototypes and production-g
 ### 🛠 Tech Stack & Ecosystem
 
 ```text
-  Languages   :: Python, C++, C#, SQL, GLSL Shaders
+  Languages   :: Python, C++, C#, SQL
   Frameworks  :: PyTorch, TensorFlow, ASP.NET Core MVC, Entity Framework Core, FastAPI, Flask, Scikit-Learn
   AI & Vision :: OpenCV, RAG, ChromaDB, Sentence Transformers, Multi-Modal Agents, Edge Computing
   MLOps & Ops :: Docker, GitHub Actions (CI/CD), Dask, Pandas, NumPy, Linux, Git, Multi-threading
