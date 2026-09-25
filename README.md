@@ -3,6 +3,7 @@
 # Hi, I'm Emirhan Yıldırım 👋
 
 ### **Applied Machine Learning Engineer**
+
 **Computer Vision · LLM & RAG Systems · MLOps**
 
 [![Website](https://img.shields.io/badge/Website-emirhanyildirim.me-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.emirhanyildirim.me/)
@@ -19,9 +20,9 @@
 
 I specialize in bridging the gap between AI research prototypes and production-grade software. Whether it's training robust Computer Vision models that generalize across unseen hardware, designing Retrieval-Augmented Generation (RAG) microservices, or engineering low-level streaming pipelines, my focus is on building resilient, high-performance ML systems.
 
-* 📍 **Location:** Sakarya , Türkiye
-* 🎓 **M.Sc. Student:** Information Systems Engineering at Sakarya University
-* 🔬 **Core Focus:** Out-of-Distribution Medical AI, Production LLM Agents, Real-Time Video Processing & Streaming MLOps
+- 📍 **Location:** Sakarya , Türkiye
+- 🎓 **M.Sc. Student:** Information Systems Engineering at Sakarya University
+- 🔬 **Core Focus:** Out-of-Distribution Medical AI, Production LLM Agents, Real-Time Video Processing & Streaming MLOps
 
 ---
 
@@ -38,13 +39,13 @@ I specialize in bridging the gap between AI research prototypes and production-g
 
 ### 🔬 Featured Portfolio Projects
 
-| Project & Status | Highlights & Performance Metrics | Core Tech |
-| :--- | :--- | :--- |
-| [**wbc-analyzer**](https://github.com/yildirimemirhan/wbc-analyzer)<br>`🚀 Production Live` `📄 Preprint` | **Out-of-Distribution Medical Pathology AI.** Custom DenseNet121 + WBCAttentionBlock + MedSwish achieving 98.53% in-distribution accuracy. Inference-time domain adaptation boosted OOD accuracy from 56.96% to 89.05% (+32.09 pp) without retraining. Includes GPT-4o & Gemini Grad-CAM clinical agent. | `PyTorch` `OpenCV` `Flask` `Docker` |
-| **Medical AI & Computer Vision Research**<br>`🔒 Ongoing M.Sc. Research` | **Real-Time Visual Processing Research** Developing and evaluating real-time computer vision methods, with work on efficient processing, temporal consistency, adaptive techniques, and deployment on resource-constrained systems. Technical details and quantitative results are limited pending completion and public release. | `Python` `OpenCV` `Computer Vision` `Embedded AI` |
-| [**rag-project-assistant**](https://github.com/yildirimemirhan/rag-project-assistant)<br>`⚡ Live Microservice` | **Portfolio RAG Microservice.** Sentence-transformers + ChromaDB (L2 < 1.40 threshold gate) + Groq Llama 3.3 70B. Deployed on HF Spaces via Docker & FastAPI with IP rate-limiting (~100 organic users). | `FastAPI` `ChromaDB` `Llama 3.3 70B` |
-| [**kinematic-action-recognition**](https://github.com/yildirimemirhan/kinematic-action-recognition)<br>`📈 0.9995 Macro F1` | **10 GB Streaming ML Pipeline.** Out-of-core Dask ingestion, real-time ADWIN drift detection (81 windows/sec, 59 MB peak RAM), and LightGBM ensemble on motion-capture sensor data. | `Python` `Dask` `LightGBM` `ADWIN` |
-| [**popcorn-wagon**](https://github.com/yildirimemirhan/popcorn-wagon)<br>`🎬 Hybrid Engine` | **Movie Recommender System.** Combines content-based filtering (TMDB API) and collaborative filtering (MovieLens SVD) with Spotify Annoy sub-millisecond similarity search. | `Python` `Spotify Annoy` `SQLAlchemy` |
+| Project & Status                                                                                                            | Highlights & Performance Metrics                                                                                                                                                                                                                                                                                                  | Core Tech                                         |
+| :-------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------ |
+| [**wbc-analyzer**](https://github.com/yildirimemirhan/wbc-analyzer)<br>`🚀 Production Live` `📄 Preprint`                   | **Out-of-Distribution Medical Pathology AI.** Custom DenseNet121 + WBCAttentionBlock + MedSwish achieving 98.53% in-distribution accuracy. Inference-time domain adaptation boosted OOD accuracy from 56.96% to 89.05% (+32.09 pp) without retraining. Includes GPT-4o & Gemini Grad-CAM clinical agent.                          | `Tensorflow` `OpenCV` `Flask` `Docker`            |
+| **Medical AI & Computer Vision Research**<br>`🔒 Ongoing M.Sc. Research`                                                    | **Real-Time Visual Processing Research** Developing and evaluating real-time computer vision methods, with work on efficient processing, temporal consistency, adaptive techniques, and deployment on resource-constrained systems. Technical details and quantitative results are limited pending completion and public release. | `Python` `OpenCV` `Computer Vision` `Embedded AI` |
+| [**rag-project-assistant**](https://github.com/yildirimemirhan/rag-project-assistant)<br>`⚡ Live Microservice`             | **Portfolio RAG Microservice.** Sentence-transformers + ChromaDB (L2 < 1.40 threshold gate) + Groq Llama 3.3 70B. Deployed on HF Spaces via Docker & FastAPI with IP rate-limiting (~100 organic users).                                                                                                                          | `FastAPI` `ChromaDB` `Llama 3.3 70B`              |
+| [**kinematic-action-recognition**](https://github.com/yildirimemirhan/kinematic-action-recognition)<br>`📈 0.9995 Macro F1` | **10 GB Streaming ML Pipeline.** Out-of-core Dask ingestion, real-time ADWIN drift detection (81 windows/sec, 59 MB peak RAM), and LightGBM ensemble on motion-capture sensor data.                                                                                                                                               | `Python` `Dask` `LightGBM` `ADWIN`                |
+| [**popcorn-wagon**](https://github.com/yildirimemirhan/popcorn-wagon)<br>`🎬 Hybrid Engine`                                 | **Movie Recommender System.** Combines content-based filtering (TMDB API) and collaborative filtering (MovieLens SVD) with Spotify Annoy sub-millisecond similarity search.                                                                                                                                                       | `Python` `Spotify Annoy` `SQLAlchemy`             |
 
 ---
 
