@@ -22,7 +22,7 @@ I specialize in bridging the gap between AI research prototypes and deployed sof
 
 - 📍 **Location:** Sakarya, Türkiye
 - 🎓 **M.Sc. Student:** Information Systems Engineering at Sakarya University
-- 🔬 **Core Focus:** Out-of-Distribution Medical AI, LLM Agents, Real-Time Video Processing & Streaming MLOps
+- 🔬 **Core Focus:** Medical AI, LLM Agents, Real-Time Video Processing & Streaming MLOps
 
 ---
 
