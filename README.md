@@ -2,7 +2,7 @@
 
 # Hi, I'm Emirhan Yıldırım 👋
 
-### **Junior Machine Learning Engineer**
+### **Junior Machine Learning Engineer & MSc. Student**
 
 **Computer Vision · LLM & RAG Systems · MLOps**
 
