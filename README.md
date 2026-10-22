@@ -23,7 +23,7 @@ I build computer vision, LLM and RAG systems and take them from notebook to a co
 - 📍 **Location:** Sakarya, Türkiye
 - 🎓 **M.Sc. Student:** Information Systems Engineering at Sakarya University
 - 🔬 **Core Focus:** Medical Image Analysis, LLM & RAG Systems, Real-Time Video Processing, Streaming ML
-- 📬 **Open to:** ML / Computer Vision / AI roles, remote or Sakarya, part-time or internship
+- 📬 **Open to:** ML / Computer Vision / AI roles, remote or near Sakarya, part-time or internship
 
 ---
 
